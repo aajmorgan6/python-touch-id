@@ -1,10 +1,8 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 setup(
     name="touchid",
-    packages=find_packages(),
-    include_package_data=True,
-    # py_modules=["touchid"],
+    py_modules=["touchid"],
     version="2.0.0",
     description="Access the Touch ID sensor",
     long_description="`touchid` provides an easy to use API for accessing the Touch ID sensor via Apple's LocalAuthentication framework",
